@@ -13,8 +13,7 @@
 * RxBinding 使用工具类。
 * RxJava常用方法工具类。
 
-## 1、演示（请star支持）
-
+## 1、演示（见代码）
 
 
 ## 2、如何使用
@@ -203,4 +202,7 @@ RxSchedulerUtils.setIOExecutor(AppExecutors.get().poolIO()); //全局替换
 .compose(new SchedulerTransformer<Integer>(AppExecutors.get().poolIO())) //局部替换
 ```
 
-
+[rxSvg]: https://img.shields.io/badge/RxUtil2-1.1.5-brightgreen.svg
+[rx]: https://github.com/LatoAndroid/RxUtil2
+[apiSvg]: https://img.shields.io/badge/API-14+-brightgreen.svg
+[api]: https://android-arsenal.com/api?level=14
