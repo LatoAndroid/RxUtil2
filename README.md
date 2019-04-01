@@ -41,7 +41,7 @@ dependencies {
    //rxbinding的sdk
    implementation 'com.jakewharton.rxbinding2:rxbinding:2.1.1'
 
-   implementation 'com.github.xuexiangjys:RxUtil2:1.1.5'
+   implementation 'com.kyle:rxutil2:1.0'
 }
 ```
 
