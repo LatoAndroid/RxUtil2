@@ -7,7 +7,7 @@
 
 
 ## 关于我
-[![github](https://img.shields.io/badge/github-LatoAndroid-yellowgreen.svg)](https://github.com/LatoAndroid)   [![简书](https://img.shields.io/badge/%E7%AE%80%E4%B9%A6-LatoAndroid-yellowgreen.svg)](https://www.jianshu.com/u/bb187b559365)
+[![github](https://img.shields.io/badge/github-LatoAndroid-brightgreen.svg)](https://github.com/LatoAndroid)   [![简书](https://img.shields.io/badge/%E7%AE%80%E4%B9%A6-LatoAndroid-brightgreen.svg)](https://www.jianshu.com/u/bb187b559365)
 
 ## 特征
 
