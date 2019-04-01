@@ -6,6 +6,9 @@
 > 如果你习惯RxJava1，请移步[RxUtil](https://github.com/xuexiangjys/RxUtil)
 
 
+## 关于我
+[![github](https://img.shields.io/badge/github-LatoAndroid-yellowgreen.svg)](https://github.com/LatoAndroid)   [![简书](https://img.shields.io/badge/%E7%AE%80%E4%B9%A6-LatoAndroid-yellowgreen.svg)](https://www.jianshu.com/u/bb187b559365)
+
 ## 特征
 
 * 订阅池管理。
@@ -36,7 +39,7 @@ allprojects {
 ```
 dependencies {
    ...
-   implementation 'io.reactivex.rxjava2:rxjava:2.1.12'
+   implementation 'io.reactivex.rxjava2:rxjava:2.2.4'
    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
    //rxbinding的sdk
    implementation 'com.jakewharton.rxbinding2:rxbinding:2.1.1'
