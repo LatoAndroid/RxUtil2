@@ -1,7 +1,7 @@
 # RxUtil2
 [![RxUtil2][rxSvg]][rx]  [![api][apiSvg]][api]
 
-一个实用的RxJava2工具类库。在原作者基础上删除了rxbus和rxLifecycle的依赖，更单纯的rxjava线程调度工具类
+一个实用的RxJava2工具类库。在原作者基础上删除了rxbus和rxLifecycle的依赖，升级了Android support和rxjava，更单纯的rxjava线程调度工具类
 
 > 如果你习惯RxJava1，请移步[RxUtil](https://github.com/xuexiangjys/RxUtil)
 
