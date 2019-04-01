@@ -32,7 +32,6 @@ public interface IProgressLoader {
     /**
      * 更新加载提示信息
      * @param tipMessage
-     * @return
      */
     void updateMessage(String tipMessage);
 

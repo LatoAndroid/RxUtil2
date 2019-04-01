@@ -9,19 +9,19 @@ package com.kyle.rxutil2.rxjava.scheduler;
 public enum SchedulerType {
 
     /**
-     * 订阅发生在主线程 （  ->  -> main)
+     * 订阅发生在主线程 （  -  - main)
      */
     _main,
     /**
-     * 订阅发生在io线程 （  ->  -> io)
+     * 订阅发生在io线程 （  -  - io)
      */
     _io,
     /**
-     * 处理在io线程，订阅发生在主线程（ -> io -> main)
+     * 处理在io线程，订阅发生在主线程（ - io - main)
      */
     _io_main,
     /**
-     * 处理在io线程，订阅也发生在io线程（ -> io -> io)
+     * 处理在io线程，订阅也发生在io线程（ - io - io)
      */
     _io_io,
 }

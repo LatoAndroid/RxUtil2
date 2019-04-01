@@ -22,4 +22,29 @@ dependencies {
     compileOnly 'com.jakewharton.rxbinding2:rxbinding:2.1.1'
 }
 
+ext {
+    /*package_userOrg = '' // 组织名 不填默认用户名*/
+    package_repo = 'rxutil2' // bintray上的仓库名，一般为maven
+    package_type = 'aar'  // 输出类型
+    package_group = 'com.kyle' // JCenter的GroupId
+    package_artifact = 'rxutil2' // JCenter的ArtifactId
+    package_version = '1.0'  // JCenter的VersionId
+    package_description = 'A tool for rxjava2'
+
+
+    siteUrl='https://github.com/LatoAndroid/RxUtil2'
+    gitUrl='https://github.com/LatoAndroid/RxUtil2.git'
+    //开发者信息
+    developerId = 'kyleJiang'
+    developerName = '姜威'
+    developerEmail = 'jiangwei.guangzhou@gmail.com'
+
+    //开源协议
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = 'Apache-2.0'
+}
+
+
+
 apply from: "bintrayUpload.gradle"

@@ -84,7 +84,7 @@ public final class RxSchedulerUtils {
     }
 
     /**
-     * 订阅发生在主线程 （  ->  -> main)
+     * 订阅发生在主线程 （  -  - main)
      * 使用compose操作符
      *
      * @param <T>
@@ -95,7 +95,7 @@ public final class RxSchedulerUtils {
     }
 
     /**
-     * 订阅发生在io线程 （  ->  -> io)
+     * 订阅发生在io线程 （  -  - io)
      * 使用compose操作符
      *
      * @param <T>
@@ -106,7 +106,7 @@ public final class RxSchedulerUtils {
     }
 
     /**
-     * 处理在io线程，订阅发生在主线程（ -> io -> main)
+     * 处理在io线程，订阅发生在主线程（ - io - main)
      *
      * @param <T>
      * @return
@@ -116,7 +116,7 @@ public final class RxSchedulerUtils {
     }
 
     /**
-     * 处理在io线程，订阅也发生在io线程（ -> io -> io)
+     * 处理在io线程，订阅也发生在io线程（ - io - io)
      *
      * @param <T>
      * @return
@@ -148,7 +148,7 @@ public final class RxSchedulerUtils {
 
 
     /**
-     * 订阅发生在主线程 （  ->  -> main)
+     * 订阅发生在主线程 （  -  - main)
      * 使用compose操作符
      *
      * @param <T>
@@ -159,7 +159,7 @@ public final class RxSchedulerUtils {
     }
 
     /**
-     * 订阅发生在io线程 （  ->  -> io)
+     * 订阅发生在io线程 （  -  - io)
      * 使用compose操作符
      *
      * @param <T>
@@ -171,7 +171,7 @@ public final class RxSchedulerUtils {
 
 
     /**
-     * 处理在io线程，订阅发生在主线程（ -> io -> main)
+     * 处理在io线程，订阅发生在主线程（ - io - main)
      *
      * @param <T>
      * @return
@@ -182,7 +182,7 @@ public final class RxSchedulerUtils {
 
 
     /**
-     * 处理在io线程，订阅也发生在io线程（ -> io -> io)
+     * 处理在io线程，订阅也发生在io线程（ - io - io)
      *
      * @param <T>
      * @return
