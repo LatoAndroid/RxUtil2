@@ -19,11 +19,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_rxbus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="RxBusUtils" />
+
 
     <Button
         android:id="@+id/btn_rxjava"
